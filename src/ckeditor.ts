@@ -47,7 +47,6 @@ import { Indent, IndentBlock } from '@ckeditor/ckeditor5-indent';
 import { TextPartLanguage } from '@ckeditor/ckeditor5-language';
 import { AutoLink, Link, LinkImage } from '@ckeditor/ckeditor5-link';
 import { List, ListProperties, TodoList } from '@ckeditor/ckeditor5-list';
-import { Markdown } from '@ckeditor/ckeditor5-markdown-gfm';
 import { MediaEmbed, MediaEmbedToolbar } from '@ckeditor/ckeditor5-media-embed';
 import { Mention } from '@ckeditor/ckeditor5-mention';
 import { PageBreak } from '@ckeditor/ckeditor5-page-break';
@@ -125,7 +124,6 @@ class Editor extends ClassicEditor {
 		LinkImage,
 		List,
 		ListProperties,
-		Markdown,
 		MediaEmbed,
 		MediaEmbedToolbar,
 		Mention,
